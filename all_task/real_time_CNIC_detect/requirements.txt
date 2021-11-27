@@ -1,0 +1,8 @@
+# this libraries are required to run the program.
+from logging import debug
+import cv2
+from flask import Flask, render_template, request, Response
+import easyocr
+from easyocr import Reader
+import face_detect_camera
+import os
